@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="StepProgressBar">
+
+        <attr name="step_lineHeight" format="dimension"/>//线高
+        <attr name="step_radius" format="dimension"/>//圆半径
+        <attr name="step_marginTop" format="dimension"/>//文字与bar的间距
+        <attr name="step_textSize" format="dimension"/>//文字大小
+        <attr name="step_textColor" format="color"/>//文字颜色
+        <attr name="step_barBgColor" format="color"/>//bar底层颜色
+        <attr name="step_barForeColor" format="color"/>//bar前景颜色
+    </declare-styleable>
+
+</resources>

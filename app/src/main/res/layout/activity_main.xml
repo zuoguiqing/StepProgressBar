@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:clipChildren="false"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <com.sp.mytest.MyStepProgressBar
+    <com.sp.mytest.StepProgressBar
         android:id="@+id/mt_test"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginTop="50dp"
+        app:step_barBgColor="#999999"
+        app:step_barForeColor="#6cf44a"
+        app:step_textColor="#000000"
+        app:step_textSize="12sp"
+        app:step_lineHeight="2dp"
+        app:step_radius="6dp"/>
 
-</RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="以上效果图"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

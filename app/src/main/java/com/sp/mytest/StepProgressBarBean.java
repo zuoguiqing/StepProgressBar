@@ -6,12 +6,12 @@ package com.sp.mytest;
  * @describe --步骤式进度条bean
  * @date 2019/4/10
  */
-public class MyStepProgressBarBean {
+public class StepProgressBarBean {
 
     private String content;
     private String tiem;
 
-    public MyStepProgressBarBean(String content, String tiem) {
+    public StepProgressBarBean(String content, String tiem) {
         this.content = content;
         this.tiem = tiem;
     }
